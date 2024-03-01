@@ -1,0 +1,2 @@
+DialogueNodes Plugin by nagidev
+https://github.com/nagidev/DialogueNodes/tree/main

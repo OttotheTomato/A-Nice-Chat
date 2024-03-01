@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://cky8r58vlf0v3"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_i17i4"]
+
+[resource]
+script = ExtResource("1_i17i4")
+starts = {
+"Test": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(123, 321),
+"start_id": "Test"
+},
+"1_1": {
+"dialogue": "I am lol Cat :3 ",
+"offset": Vector2(460, 200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": "Yes you Are!"
+},
+1: {
+"condition": {},
+"link": &"1_2",
+"text": "Nope, definietly not."
+}
+},
+"size": Vector2(300, 307),
+"speaker": "LolCat"
+},
+"1_2": {
+"dialogue": "Die Then",
+"offset": Vector2(824.486, 514.85),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 241),
+"speaker": "LolCat"
+},
+"1_3": {
+"dialogue": "Yaaaaay",
+"offset": Vector2(819.298, 164.695),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 241),
+"speaker": "LolCat"
+}
+}
+variables = {}
+comments = Array[String]([])
+strays = Array[String]([])
+characters = ""
